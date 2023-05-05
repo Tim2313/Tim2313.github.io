@@ -10,4 +10,4 @@ Here I am going to:
 ### Practice
 
  **Mark** 
-	- <a href="https://Tim2313.github.io/index.html" target="_blank">Landing page</a>
+	- <a href="https://Tim2313.github.io/index.html" target="_blank">Lamp page</a>
