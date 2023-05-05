@@ -1,4 +1,4 @@
-# Tim2313.github.ioe
+# Tim2313.github.io
 
 ## My frontend
 
