@@ -6,7 +6,7 @@
 }
 
 .background{
-    background-color: rgb(48, 48, 88);
+    background-color: #fff;
     min-height: 100vh;
     width: 100%;
     position: relative;
@@ -16,17 +16,22 @@
 .main{
     width: 100%;
     height: 100%;
-    background-color: rgb(48, 48, 88);
+    background-color: #fff;
 
 }
 
 .button-one{
+    padding: 50px 100px;
+    border-radius: 70px;
+    border: 4px solid black;
     text-align: center;
-    background-color: rgb(9, 153, 9);
+    /* background-color: rgb(9, 153, 9); */
+    background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
     margin: auto;
     position: absolute;
-    left: 50%;
+    left: 40%;
     top: 50%;
+    cursor: pointer;
     
 }
 
@@ -35,3 +40,39 @@
     display: inline-block;
 }
 
+.button-two{
+    padding: 50px 100px;
+    border-radius: 70px;
+    border: 4px solid black;
+    text-align: center;
+    background-color: red;
+    margin: auto;
+    position: absolute;
+    left: 60%;
+    top: 50%;
+    cursor: pointer;
+    
+}
+
+.option-no{
+    font-size: 250%;
+    display: inline-block;
+}
+
+.question{
+    margin: auto;
+    position: absolute;
+    left: 50%;
+    top: 30%;
+
+}
+
+.button-one:hover {
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+}
+
+.button-two:hover {
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+}
