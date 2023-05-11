@@ -1,11 +1,11 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: 'poppins', sans-serif;
     box-sizing: border-box;
 }
 
-.background{
+.background {
     background-color: #fff;
     min-height: 100vh;
     width: 100%;
@@ -13,34 +13,35 @@
 
 }
 
-.main{
+.main {
     width: 100%;
     height: 100%;
     background-color: #fff;
 
 }
 
-.button-one{
-    padding: 50px 100px;
+.button-one {
+    padding: 70px 100px;
     border-radius: 70px;
     border: 4px solid black;
     text-align: center;
     /* background-color: rgb(9, 153, 9); */
-    background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+    background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
     margin: auto;
     position: absolute;
-    left: 40%;
     top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
     cursor: pointer;
-    
+
 }
 
-.option-yes{
+.option-yes {
     font-size: 250%;
     display: inline-block;
 }
 
-.button-two{
+.button-two {
     padding: 50px 100px;
     border-radius: 70px;
     border: 4px solid black;
@@ -48,22 +49,25 @@
     background-color: red;
     margin: auto;
     position: absolute;
-    left: 60%;
     top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    padding: 70px 100px;
     cursor: pointer;
-    
+
 }
 
-.option-no{
+.option-no {
     font-size: 250%;
     display: inline-block;
 }
 
-.question{
+.question {
     margin: auto;
     position: absolute;
-    left: 50%;
     top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 
 }
 
