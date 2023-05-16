@@ -16,3 +16,8 @@ window.addEventListener('DOMContentLoaded', () => {
     })
 })
 
+window.addEventListener('DOMContentLoaded', () => {
+    const button = document.getElementById('yes-button');
+
+    button.addEventListener('click', () => alert('Oh, I am gay too!!!'))
+})
