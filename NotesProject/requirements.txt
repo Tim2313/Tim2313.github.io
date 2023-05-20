@@ -1,0 +1,7 @@
+Project: Notes
+
+Requirements: 
+
+1. input field 
+2. add button to save input field content
+3. list of saved content
