@@ -1,4 +1,4 @@
-console.log('Hello Worlda');
+console.log('Hello World');
 // What is the difference between 'var', 'let' and 'const';
 // https://learn.javascript.ru/variables 
 // https://learn.javascript.ru/var
@@ -6,10 +6,20 @@ console.log('Hello Worlda');
 
 function addNoteToList(event) {
     event.preventDefault();
-    const noteInput = document.getElementById('noteInput').value;
     const notesList = document.getElementById('notesList');
-    
+    const length = notesList.childNodes.length;
+
+    if (length == 22){
+        return
+    }
+
+    const noteInput = document.getElementById('noteInput').value;
+    if (noteInput == "") {
+        alert("Please don't kill scavs!")
+        return
+    }
     const newListItem = document.createElement('li');
+    newListItem.classList.add('noteItem');
     newListItem.innerHTML = noteInput;
     notesList.appendChild(newListItem);
 }
@@ -22,8 +32,8 @@ function deleteLastNote(){
     } 
 }
 
-const noteForm = document.getElementById('noteForm');
-noteForm.addEventListener('submit', addNoteToList);
+const noteForm = document.getElementById('addNoteButton');
+noteForm.addEventListener('click', addNoteToList);
 
 const deleteLastNoteButton = document.getElementById('deleteTaskFromListButton');
 deleteLastNoteButton.addEventListener('click', deleteLastNote)

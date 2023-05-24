@@ -1,49 +1,53 @@
-* {
-    margin: 0;
-    padding: 0;
-    font-family: 'poppins', sans-serif;
-    box-sizing: border-box;
-}
-
-.allPage {
+body {
+    font-family: 'Courier New', Courier, monospace;
     background-color: #9c95c9;
-    min-height: 100vh;
-    width: 100%;
-    position: relative;
 }
 
-.note {
+.notePage {
     background-color: rgb(241, 218, 101);
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 450px;
-    height: 600px;
+    width: 35%;
+    height: auto;
+    margin: auto;
     border: 3px solid black;
-    cursor: pointer;
-}
-
-.formNote {
-    position: absolute;
-    top: 80%;
-    left: 50%;
-    transform: translate(-50%, -50%);   
-}
-
-.deleteButton {
-    position: absolute;
-    top: 84%;
-    left: 69%;
-    transform: translate(-50%, -50%);   
+    padding: 20px;
 }
 
 .tasklist {
-    margin-left: 45%;
+    /* margin: auto;
+    width: 50%;
+    text-align: center; */
 }
 
-.headerT {
-    margin-left: 42%;
+.notesList {
+    word-wrap: break-word;
+
 }
 
+.listHeader {
+    margin: 0;
+    text-align: center;
+}
 
+.noteItem {
+    margin: 7px;
+}
+
+.textArea {
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15px;
+}
+
+.addButton {
+    width: 40%;
+}
+
+.deleteButton {
+    width: 40%;
+}

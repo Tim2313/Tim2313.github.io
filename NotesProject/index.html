@@ -7,18 +7,21 @@
 </head>
 
 <body>
-    <div class="allPage">
-        <span class="note">
-    <form class="formNote" id="noteForm">
-        <input id="noteInput" required>
-        <button class="addButton" id="addNoteButton">Add</button>
-    </form>
-    <button  class="deleteButton" id="deleteTaskFromListButton">Delete</button>
-    <h3 class="headerT">Tasks:</h3>
+    <div class="notePage">
         <div class="tasklist">
-            <ol id="notesList">
+            <h3 class="listHeader">Tasks</h3>
+            <ol class="notesList" id="notesList">
 
             </ol>
+        </div>
+        <div>
+
+            <textarea class="textArea" id="noteInput"></textarea>
+            <div class="buttons">
+                <button class="addButton" id="addNoteButton">Add</button>
+                <button class="deleteButton" id="deleteTaskFromListButton">Delete</button>
+            </div>
+
         </div>
     </div>
 
