@@ -3,20 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <title>ProjectNotes</title>
+    <link rel="stylesheet" href="css/newStyle.css" type="text/css">
 </head>
 
 <body>
-    <form id="noteForm">
+    <div class="allPage">
+        <span class="note">
+    <form class="formNote" id="noteForm">
         <input id="noteInput" required>
-        <button id="addNoteButton">Add</button>
+        <button class="addButton" id="addNoteButton">Add</button>
     </form>
-    <button id="deleteTaskFromListButton">Delete</button>
-    <div>
-        <h3>Tasks:</h3>
-        <ol id="notesList">
+    <button  class="deleteButton" id="deleteTaskFromListButton">Delete</button>
+    <h3 class="headerT">Tasks:</h3>
+        <div class="tasklist">
+            <ol id="notesList">
 
-        </ol>
+            </ol>
+        </div>
     </div>
+
     <script src="script/script.js"></script>
 </body>
 

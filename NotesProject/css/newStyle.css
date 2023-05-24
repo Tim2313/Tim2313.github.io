@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.allPage {
+    background-color: #9c95c9;
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+.note {
+    background-color: rgb(241, 218, 101);
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 450px;
+    height: 600px;
+    border: 3px solid black;
+    cursor: pointer;
+}
+
+.formNote {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);   
+}
+
+.deleteButton {
+    position: absolute;
+    top: 84%;
+    left: 69%;
+    transform: translate(-50%, -50%);   
+}
+
+.tasklist {
+    margin-left: 45%;
+}
+
+.headerT {
+    margin-left: 42%;
+}
+
+
