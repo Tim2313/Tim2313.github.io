@@ -1,8 +1,10 @@
 console.log('Hello World');
 // What is the difference between 'var', 'let' and 'const';
-// https://learn.javascript.ru/variables 
-// https://learn.javascript.ru/var
-// https://learn.javascript.ru/let-const
+// https://learn.javascript.ru/variables -
+// https://learn.javascript.ru/var -
+// https://learn.javascript.ru/let-const -
+// https://learn.javascript.ru/types
+// https://learn.javascript.ru/strict-mode
 
 function addNoteToList(event) {
     event.preventDefault();
@@ -37,4 +39,5 @@ noteForm.addEventListener('click', addNoteToList);
 
 const deleteLastNoteButton = document.getElementById('deleteTaskFromListButton');
 deleteLastNoteButton.addEventListener('click', deleteLastNote)
+
 
