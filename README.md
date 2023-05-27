@@ -16,5 +16,8 @@ Here I am going to:
 	- <a href="https://Tim2313.github.io/ProjectWindow/index.html" target="_blank">Question</a>
 
 **NotesProject**
-	- <a href="NotesProject/index.html" target="_blank">Notes</a>
+	- <a href="https://Tim2313.github.io/NotesProject/index.html" target="_blank">Notes</a>
+
+**ProjectCasino**
+	- <a href="https://Tim2313.github.io/ProjectCasino/index.html" target="_blank">Casino<a/>
 	
