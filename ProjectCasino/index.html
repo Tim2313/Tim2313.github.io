@@ -4,32 +4,38 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/style.css" type="text/css">
     <title>Casino</title>
+    <script defer src="script/script.js"></script>
 </head>
 
 <body>
 
     <div class="background">
 
-        <div class="screen">
-            <table class="slot">
-                <tbody>
-                    <tr>
-                        <td><img id="image1" class="cherry" src="image/pngwing.com.png" alt="cherry"></td>
 
-                        <td><img id="image2" class="cherry" src="image/pngwing.com.png" alt="cherry"></td>
+        <table class="slot">
+            <tbody>
+                <tr>
+                    <td><span id="item1">_</span></td>
 
-                        <td><img id="image3" class="cherry" src="image/pngwing.com.png" alt="cherry"></td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
+                    <td><span id="item2">_</span></td>
 
-        <div class="buttons">
-            <button class="buttonPlay" id="playButton">Play</button>
-            <button class="buttonReset" id="resetButton"></button>
-        </div>
-
+                    <td><span id="item3">_</span></td>
+                </tr>
+            </tbody>
+        </table>
     </div>
+
+    <div class="button">
+        <button class="buttonPlay" id="playButton" onclick="spin()">Play</button>
+    </div>
+
+    <div id="winMessage" class="messageWin">
+        Big win!
+    </div>
+
+    <audio id="winSound">
+        <source src="sound/mixkit-casino-win-notification-1986.wav" type="audio/mpeg">
+    </audio>
 
 </body>
 
