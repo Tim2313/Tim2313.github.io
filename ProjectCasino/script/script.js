@@ -3,7 +3,7 @@ function getElement(id) {
 }
 
 function getRandomNumber() {
-    return Math.floor(Math.random() * 2) + 1;
+    return Math.floor(Math.random() * 1) + 1;
 }
 
 function spin() {
@@ -28,19 +28,18 @@ function spin() {
 }
 
 function playWinSound() {
-    const winSound = document.getElementById('winSound');
+    const winSound = document.getElementById("winSound");
     winSound.play();
 }
 
 function showWinMassage() {
-    const winMessage = document.getElementById('winMessage');
-    winMessage.style.display = 'block';
-    winMessage.classList.add('animated', 'pulse');
+    const message = document.getElementById("winMessage");
+    message.style.display = "block";
 }
 
 function hideMessage() {
-    const message = document.getElementById('winMessage');
-    message.style.display = 'none';
+    const message = document.getElementById("winMessage");
+    message.style.display = "none";
 }
 
 
