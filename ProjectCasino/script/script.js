@@ -3,7 +3,7 @@ function getElement(id) {
 }
 
 function getRandomNumber() {
-    return Math.floor(Math.random() * 1) + 1;
+    return Math.floor(Math.random() * 4) + 1;
 }
 
 function spin() {
